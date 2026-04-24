@@ -1,0 +1,145 @@
+.features-section {
+  padding: 72px 0;
+}
+
+.section-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #1D9E75;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  color: #1a1a18;
+  margin-bottom: 16px;
+}
+
+.section-sub {
+  font-size: 16px;
+  color: #444441;
+  line-height: 1.65;
+  font-weight: 300;
+  max-width: 520px;
+}
+
+.feat-card {
+  background: #fff;
+  border: 0.5px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 20px;
+  height: 100%;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.feat-card:hover {
+  border-color: #1D9E75;
+  transform: translateY(-2px);
+}
+
+.feat-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.feat-card h4 {
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a18;
+  margin-bottom: 6px;
+}
+
+.feat-card p {
+  font-size: 12px;
+  color: #888780;
+  line-height: 1.55;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .features-section {
+    padding: 40px 15px;
+  }
+
+  .section-label {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .section-title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section-sub {
+    font-size: 14px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .feat-card {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .feat-icon {
+    font-size: 22px;
+  }
+
+  .feat-card h4 {
+    font-size: 13px;
+  }
+
+  .feat-card p {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .features-section {
+    padding: 56px 30px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .section-sub {
+    font-size: 15px;
+  }
+
+  .feat-card {
+    padding: 18px;
+  }
+
+  .feat-card h4 {
+    font-size: 14px;
+  }
+
+  .feat-card p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .features-section {
+    padding: 72px 60px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .section-sub {
+    font-size: 16px;
+  }
+}
